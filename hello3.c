@@ -25,7 +25,9 @@ main ()
 {
   //int rtval = write (1, "Hello\n", 12);
   //return 0;
-  return syscall3 (4, 1, (long) "Hello\n", 6);
+  return syscall3 (4, 1, (long) "hello3\n", 7);
+  //char h[]="hello3\n";
+  //return syscall3 (4, 1, (long) "hello3\n", sizeof(h));
 }
 
 void
