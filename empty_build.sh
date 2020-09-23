@@ -1,6 +1,3 @@
-docker build empty/ -t empty
+docker build empty/ -t partnernetsoftware/empty
 docker images | grep empty
-
-#sh hello3_build.sh
-#sh empty.sh hello3/hello3
 sh empty.sh ./tiny

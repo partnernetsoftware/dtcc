@@ -1,1 +1,1 @@
-docker run -ti -v $PWD:/w -w /w empty $*
+docker run -ti -v $PWD:/w -w/w partnernetsoftware/empty $*
